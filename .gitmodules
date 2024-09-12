@@ -4,3 +4,12 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:robertmonka/nvim.git
+[submodule ".tmux/plugins/tmux-continuum"]
+	path = .tmux/plugins/tmux-continuum
+	url = git@github.com:tmux-plugins/tmux-continuum.git
+[submodule ".tmux/plugins/vim-tmux-navigator"]
+	path = .tmux/plugins/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule ".tmux/plugins/tmux-resurrect"]
+	path = .tmux/plugins/tmux-resurrect
+	url = git@github.com:tmux-plugins/tmux-resurrect.git
