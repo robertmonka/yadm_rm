@@ -1,4 +1,4 @@
 yadm submodule update --init --recursive && \
-apt update && \
-apt install -y tmux fzf build-essential make npm python3 python3-pip python3-venv && \
+sudo apt update && \
+sudo apt install -y tmux fzf build-essential make npm python3 python3-pip python3-venv && \
 pip3 install --upgrade pip
