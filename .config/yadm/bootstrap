@@ -4,3 +4,4 @@ sudo apt install -y tmux fzf build-essential make npm python3 python3-pip python
 python3 -m venv ~/.config/nvim/env \
 source ~/.config/nvim/env/bin/activate \
 pip3 install --upgrade pip
+npm install -g neovim
