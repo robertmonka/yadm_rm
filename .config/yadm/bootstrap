@@ -1,7 +1,14 @@
 yadm submodule update --init --recursive && \
 sudo apt update && \
-sudo apt install -y tmux fzf build-essential make npm python3 python3-pip python3-venv luarock luajit ripgrep && \
-python3 -m venv ~/.config/nvim/env \
-source ~/.config/nvim/env/bin/activate \
-pip3 install --upgrade pip
-npm install -g neovim
+sudo apt install -y tmux fzf build-essential make npm python3 python3-pip python3-venv luajit ripgrep fd-find lazygit composer && \
+sudo apt install -y luarock && \
+python3 -m venv ~/.config/nvim/env && \
+source ~/.config/nvim/env/bin/activate && \
+pip install --upgrade pip && \
+pip install pynvim && \
+npm install neovim && \
+deactivate
+
+#cd ~/.local/share/nvim/lazy/telescope-fzf-native.nvim
+#make
+
