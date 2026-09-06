@@ -1,0 +1,45 @@
+onboarding = false
+
+[keys]
+prefix = "ctrl+a"
+split_vertical = "prefix+|"
+split_horizontal = "prefix+minus"
+zoom = "prefix+m"
+
+[theme]
+name = "tokyo-night"
+
+auto_switch = false
+[theme.custom]
+panel_bg = "#131a24"
+sidebar_bg = "#131a24"
+active_row_bg = "#39506d"
+selection_bg = "#3c5372"
+surface0 = "#212e3f"
+surface1 = "#29394f"
+surface_dim = "#39506d"
+overlay0 = "#d6d6d7"
+overlay1 = "#dfdfe0"
+text = "#dfdfe0"
+subtext0 = "#d6d6d7"
+accent = "#719cd6"
+blue = "#719cd6"
+red = "#c94f6d"
+green = "#6e9783"
+yellow = "#dbc074"
+mauve = "#9d79d6"
+peach = "#f4a261"
+teal = "#54aeb0"
+
+[ui]
+pane_outer_borders = false
+pane_gaps = false
+accent = "#719cd6"
+tab_bar_right = [
+  { type = "datetime", format = "%Y-%m-%d  %H:%M" },
+  { type = "hostname" },
+]
+status_indicators = "symbols"
+
+[ui.toast]
+delivery = "herdr"
