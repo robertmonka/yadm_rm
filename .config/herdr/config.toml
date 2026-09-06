@@ -32,11 +32,11 @@ peach = "#f4a261"
 teal = "#54aeb0"
 
 [ui]
+window_title = "{workspace}"
 pane_outer_borders = false
 pane_gaps = false
 accent = "#719cd6"
 tab_bar_right = [
-  { type = "datetime", format = "%Y-%m-%d  %H:%M" },
   { type = "hostname" },
 ]
 status_indicators = "symbols"
